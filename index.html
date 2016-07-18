@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatterbox</title>
+    <title>Chat-try</title>
      <meta name="description" content="description here">
      <meta name="keywords" content="keywords,here">
-    
+    <!--Firebase-->
+      <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
     <!--Foundation link-->
     <link rel="stylesheet" href="css/foundation-6.2.3/css/foundation.css">
     <link rel="stylesheet" href="css/foundation-6.2.3/css/app.css">
@@ -33,7 +34,7 @@
     <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
     <!--header-->
@@ -65,8 +66,19 @@
         </fieldset>
     </form>
     
- 
-    
+ <!--Firebase script-->
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC4AWshj1Dtf2TN538ki_nMe3Mck_1kez0",
+    authDomain: "chatterbox-9ca13.firebaseapp.com",
+    databaseURL: "https://chatterbox-9ca13.firebaseio.com",
+    storageBucket: "chatterbox-9ca13.appspot.com",
+  };
+  firebase.initializeApp(config);
+</script>
+    <!--js scripts-->
     <script src="css/foundation-6.2.3/js/vendor/jquery.js"></script>
     <script src="css/foundation-6.2.3/js/vendor/foundation.min.js"></script>
     <script src="css/foundation-6.2.3/js/vendor/foundation.js"></script>

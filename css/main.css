@@ -1,12 +1,12 @@
 body{
     width: 100%;
     height: 100%;
-    background-image: url(../img/backg.jpg);
+    background-image: url(../img/business1.jpg);
 }
 /*Header*/
 .wrap{
     border: 2px solid #4CAF50;
-    background-color: rgba(69,143,204,0.5);
+    background-color: rgba(69,143,204,5);
 }
 
 /*SIDE DROP NAV*/
