@@ -31,22 +31,25 @@ body{
     border-radius:20px;
 }
 
-/*Textarea*/
-#textarea{
-    text-align:left;
-    height:550px;
-    width:100%;
-    border:1px solid #ACD8F0;
-    overflow:auto;
-    background-color: aqua;
+/*Group-Info*/
+#group-info{
+    margin: auto;
+    width:90%;
+    height: 290px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    background-color: #fff;
 }
 
-/*Input areas*/
-form{
-    text-align: left;
-    border: 1px solid grey;
-    height: auto;
-    width: ;
-    padding-left: ;
-    z-index: 3;
+#group-info h4{
+    color: black;
+    font-size: 30px;   
+}
+
+.info{
+    margin: auto;
+    height: 210px;
+    width: 300px;
+    border: 2px solid crimson;
+    border-radius: 20px;
 }
