@@ -3,3 +3,8 @@ body{
     height: 100%;
     background-color:;
 }
+/*Header*/
+.wrap{
+    border: 2px solid blue;
+    border-radius: 20px;
+}
