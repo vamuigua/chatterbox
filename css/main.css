@@ -53,3 +53,35 @@ body{
     border: 2px solid crimson;
     border-radius: 20px;
 }
+/*Main-content*/
+.name-group{
+    height: 100px;
+    width: auto;
+    border: 2px solid crimson;
+    border-radius: 20px;
+    color:#fff;
+    background-color: black;
+}
+
+.name-group h3{
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.message-display{
+    height: 350px;
+    width: auto;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.sub{
+    text-align: center;
+    font-size: 20px;
+    background-color: crimson;
+}
