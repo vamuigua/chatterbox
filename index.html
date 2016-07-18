@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/main.css">
     
     <!--Js modenizer-->
-    <script src="js/vendor/modernizr.js"></script>
+    <!--<script src="js/vendor/modernizr.js"></script>-->
     
     <!--Font awesome icons-->
     <link rel= "stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
@@ -61,14 +61,24 @@
      <!--Main content-->
   <div class="medium-8 columns" style="height:677px;background-color:rgba(255,187,187,0.7)">
       <div class="name-group"><h3>Group Name:(Display Group Name)</h3></div>
-      <div id ="message-display">(Messages displayed here)</div>
-      <div class="write-message">
-      <textarea name="comment" placeholder="Write text here..."></textarea>
+      <div id ="message-display">Messages:<input type="text" id="message" style="color:black">
+      </div>
+            </div>
+      <div id="write-message">
+      <input type="text" id="write" name="comment" placeholder="Write text here..."></input>
       </div>
       <div class="sub"><input type="submit" name="submit" value="Send" onclick="mySend()"></div>
+            
         </div>
 </div>
  
+    <!--Vendor Scripts-->
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type ="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script type ="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
+    
     <!--JS script-->
     <script src="js/main.js"></script>    
     <script src="css/foundation-6.2.3/js/vendor/jquery.js"></script>
