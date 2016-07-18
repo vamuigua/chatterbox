@@ -85,3 +85,8 @@ body{
     font-size: 20px;
     background-color: crimson;
 }
+
+#message{
+    border: 2px solid grey;
+    color:black;
+}
