@@ -69,7 +69,7 @@ body{
     font-family: 'Montserrat', sans-serif; 
 }
 
-.message-display{
+#message-display{
     height: 350px;
     width: auto;
     margin: 10px 0;
