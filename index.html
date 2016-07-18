@@ -61,15 +61,16 @@
      <!--Main content-->
   <div class="medium-8 columns" style="height:677px;background-color:rgba(255,187,187,0.7)">
       <div class="name-group"><h3>Group Name:(Display Group Name)</h3></div>
-      <div class="message-display">(Messages displayed here)</div>
+      <div id ="message-display">(Messages displayed here)</div>
       <div class="write-message">
-      <textarea name="comment">Write text here...</textarea>
+      <textarea name="comment" placeholder="Write text here..."></textarea>
       </div>
-      <div class="sub"><input type="submit" name="submit" value="Send"></div>
+      <div class="sub"><input type="submit" name="submit" value="Send" onclick="mySend()"></div>
         </div>
 </div>
  
     <!--JS script-->
+    <script src="js/main.js"></script>    
     <script src="css/foundation-6.2.3/js/vendor/jquery.js"></script>
     <script src="css/foundation-6.2.3/js/vendor/foundation.min.js"></script>
     <script src="css/foundation-6.2.3/js/vendor/foundation.js"></script>
